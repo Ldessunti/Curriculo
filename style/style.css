@@ -1,0 +1,54 @@
+body{
+    font-family: 'Monaco', monospace;
+    background-color: #F8DDA4;
+    color: #385170;
+}
+.nome{
+    text-align: center;
+    font-size: xx-large;
+}
+.headernome{
+    margin: 3% 10% 5% 10%;
+}
+section{
+    margin: 5% 10% 5% 10%
+}
+h2{
+    text-align: center;
+}
+.listmenu{
+    text-align: center;
+    list-style: none;
+    display:flexbox;
+    margin: 2%;
+    padding: 3%;
+    border: solid;
+    background-color: #B1C1C0;
+    border-color: #142d4c;
+}
+.linkmenu{
+    text-decoration: none;
+}
+.listmenu:hover{
+    text-align: center;
+    background-color:  #B1C1C0;
+    color: white;
+    border: none;
+}
+#formacao{
+    background-color: #B1C1C0;
+    border-style: double;
+}
+#experiencia{
+    background-color: #B1C1C0;
+    border-style: double;
+}
+#hobbies{
+    background-color: #B1C1C0;
+    border-style: double;
+}
+#contato{
+    text-align: center;
+    background-color: #B1C1C0;
+    border-style: double;
+}
