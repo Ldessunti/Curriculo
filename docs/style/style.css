@@ -1,30 +1,42 @@
 body{
-    font-family: 'Monaco', monospace;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #F8DDA4;
     color: #385170;
+    font-size: large;
 }
+section{
+    margin: 3%;
+    width: 60%;
+}
+h2{
+    text-align: center;
+}
+
 .nome{
     text-align: center;
     font-size: xx-large;
 }
 .headernome{
-    margin: 3% 10% 5% 10%;
-}
-section{
-    margin: 5% 10% 5% 10%
-}
-h2{
-    text-align: center;
+    margin: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
 }
 .listmenu{
     text-align: center;
     list-style: none;
     display:flexbox;
-    margin: 2%;
+    margin: 0.5%;
+    margin-left: 25%;
+    margin-right: 25%;
     padding: 3%;
     border: solid;
     background-color: #B1C1C0;
     border-color: #142d4c;
+    border-radius: 2em;
+    border-width: 0.2em;
+    font-size: larger;
+    width: 40%;
 }
 .linkmenu{
     text-decoration: none;
@@ -35,20 +47,47 @@ h2{
     color: white;
     border: none;
 }
+
+#sobre{
+    background-color: #B1C1C0;
+    border-style: double;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: xx-large;
+}
 #formacao{
     background-color: #B1C1C0;
     border-style: double;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: xx-large;
 }
 #experiencia{
     background-color: #B1C1C0;
     border-style: double;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: xx-large;
+}
+#habilidades{
+    background-color: #B1C1C0;
+    border-style: double;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: xx-large;
 }
 #hobbies{
     background-color: #B1C1C0;
     border-style: double;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: xx-large;
 }
 #contato{
     text-align: center;
     background-color: #B1C1C0;
     border-style: double;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: xx-large;
 }
